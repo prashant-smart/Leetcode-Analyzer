@@ -6,11 +6,11 @@ This is a Chrome Extension which Add a graph on leetcode page for visualizing di
 
  link:- soon releasing on https://chrome.google.com/webstore/category/extensions?hl=en
 
-# without Leetcode Analyzer
+# Without Leetcode Analyzer
 
 <img src="src/Images/without_extension.png">
 
-# with Leetcode Analyzer
+# With Leetcode Analyzer
 
 <img src="src/Images/with_extension.png">
 

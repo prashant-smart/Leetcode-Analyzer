@@ -26,7 +26,6 @@ var inject = (parentDiv) => {
   let tagData_With_NumberOf_Questions=[];
   let total_tags=[];
   let userData=JSON.parse(localStorage.getItem("userData"));
-  console.log(userData.user_name===username);
 
   if(userData.user_name!==username){
     return;

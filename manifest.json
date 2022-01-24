@@ -1,15 +1,15 @@
 {
     "name":"Leetcode Analyzer",
-     "version":"0.0.1",
-     "manifest_version":2,
-     "description":"Add a graph on leetcode page for visualizing different number of question tag in the form of bar graph the basis of number of problem solve by user on specific question tag",
-     "permissions":["tabs","https://leetcode.com/*"],
+     "version":"0.0.2",
+     "manifest_version":3,
+     "description":"Add graph on leetcode page for visualizing different number of question tag on the basis of number of problem solve by user",
+     "permissions":["tabs"],
      "icons":{
          "16":"src/Images/16X16_LOGO.png",
          "48":"src/Images/48X48_LOGO.png",
          "128":"src/Images/125X125_LOGO.png"
      },
-     "browser_action":{
+     "action":{
          "default_popup":"popup.html",
          "default_icon":"src/Images/125X125_LOGO.png"
      },
