@@ -8,11 +8,11 @@ This is a Chrome Extension which Add a graph on leetcode page for visualizing di
 
 # without Leetcode Analyzer
 
-![error]("src/Images/without_extension.png")
+<img src="src/Images/without_extension.png">
 
 # with Leetcode Analyzer
 
-![error]("src/Images/with_extension.png")
+<img src="src/Images/with_extension.png">
 
 
 
