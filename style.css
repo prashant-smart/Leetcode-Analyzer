@@ -1,0 +1,48 @@
+.css-8kh3x9 {
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 1px 2px, rgb(0 0 0 / 8%) 0px 2px 8px;
+    margin-bottom: 15px;
+}
+
+#myChart{
+    padding: 0px 12px 12px;
+    /* height: 23rem!important;width: 24rem!important; */
+    position: relative;
+    top: 29px;
+  
+  }
+  .profile-content-wrapper__3CQt{
+    flex-direction: column!important;
+  }
+  .profile-side-bar__3r8O{
+    max-width: 100%!important;
+  }
+  .profile-content__3PmZ{
+    width: 100%!important;
+  }
+  #tag_types{
+    padding: 0px 12px 12px;
+  }
+.ant-card {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum';
+    position: relative;
+    background: #fff;
+    border-radius: 2px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+div {
+    display: block;
+}
