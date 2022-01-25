@@ -1,6 +1,6 @@
 {
     "name":"Leetcode Analyzer",
-     "version":"0.0.2",
+     "version":"0.0.4",
      "manifest_version":3,
      "description":"Add graph on leetcode page for visualizing different number of question tag on the basis of number of problem solve by user",
      "permissions":["tabs"],
