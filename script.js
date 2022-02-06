@@ -22,8 +22,18 @@ var inject = (parentDiv) => {
 
   
   getApiData(url);
+
   let tagData_With_NumberOf_Questions=[];
   let total_tags=[];
+  let sleepCounter=1;
+
+  if(localStorage.getItem("userData")==null&&localStorage.getItem("error_fetching")==null){
+    localStorage.setItem('error_fetching', 1);
+    setTimeout(() => {
+      
+      location.reload();
+    }, 2000);
+  }
   let userData=JSON.parse(localStorage.getItem("userData"));
 
   if(userData.user_name!==username){
@@ -175,3 +185,5 @@ async function getApiData(url){
 // var tooglClasses=(e)=>{
   
 // }
+
+// browserify script.js -o bundle.js
