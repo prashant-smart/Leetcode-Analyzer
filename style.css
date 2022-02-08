@@ -113,3 +113,16 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+
+.col {
+  color: #373737;
+  font-size: initial;
+}
+.col-color{
+  color: #6e6e76;
+}
+
+.hidden{
+  display: none;
+}

@@ -13,8 +13,8 @@
          "default_icon":"src/Images/125X125_LOGO.png"
      },
      "content_scripts":[{
-         "js":["src/component/tagData.js","bundle.js"],
-         "css":["style.css"],
+         "js":["src/component/tagData.js","src/component/fetchUserRankAndContest_Details.js","bundle.js"],
+         "css":["style.css","styleForTable.css"],
          "matches":["https://leetcode.com/*"],
          "exclude_matches": ["https://leetcode.com/explore/*","https://leetcode.com/problemset/*","https://leetcode.com/contest/*","https://leetcode.com/discuss/*","https://leetcode.com/store/*","https://leetcode.com/subscribe/*","https://leetcode.com/playground/*","https://leetcode.com/"]
          }]
