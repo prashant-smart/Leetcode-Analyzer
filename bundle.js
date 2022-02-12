@@ -184,9 +184,8 @@ let contestArrayId=localStorage.getItem("all_contest_id");
 contestArrayId=JSON.parse(contestArrayId);
 
 let leftSideHtml=document.getElementsByClassName("profile-side-bar__3r8O")[0];
-leftSideHtml.append(contest_table);
 if(contestArrayId.length!=0){
-  console.log(all_contest_array.length);
+  leftSideHtml.append(contest_table);
 
   let t=document.getElementById("contest_table").tBodies[0]
   contestArrayId.forEach(element => {

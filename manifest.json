@@ -1,8 +1,8 @@
 {
     "name":"Leetcode Analyzer",
-     "version":"0.0.4",
+     "version":"0.0.5",
      "manifest_version":3,
-     "description":"Add graph on leetcode page for visualizing different number of question tag on the basis of number of problem solve by user",
+     "description":"Add a graph for visualization of number of question per tag and also add a contest history table",
      "icons":{
          "16":"src/Images/16X16_LOGO.png",
          "48":"src/Images/48X48_LOGO.png",

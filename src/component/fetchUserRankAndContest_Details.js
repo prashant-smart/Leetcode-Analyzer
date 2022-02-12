@@ -54,7 +54,6 @@ function findDetailsOfContest(contest_name){
 
 function fill_all_contest_array(){
   fetchAllContest();
-
   all_contest.forEach(element => {
     findDetailsOfContest(element);
   });
