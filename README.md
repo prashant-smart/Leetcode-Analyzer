@@ -4,7 +4,7 @@ This is a Chrome Extension which Add a graph on leetcode page for visualizing di
 
 # Installation
 
- link:- soon releasing on https://chrome.google.com/webstore/category/extensions?hl=en
+ link:- https://chrome.google.com/webstore/detail/leetcode-analyzer/dhhhonpdnpmedblhfhppmmpmmadmkkpi?hl=en
 
 # Without Leetcode Analyzer
 
